@@ -1,0 +1,6 @@
+# tune-roulette
+TuneRoulette Capstone Project
+
+This project “TuneRoulette” will be a full stack web app that randomly generates a song, album or artist using the Spotify API. The website will be built using Node JS for the back-end and React JS for the front-end. The intention is to make the app balanced with an even focus between the front and back-end. The goal for this project is to provide users with random music suggestions based on the criteria provided. The targeted demographic for this service is music enjoyers who like exploring different genres and different areas of the music that they may not be familiar with. If nothing else, this app could be a fun way for a user to be provided with random music suggestions. 
+
+In terms of functionality, this app will be using the Spotify API to harvest its data. The data returned will be determined by the criteria the user selects. The user will be provided with options to generate a random song, album or artist. Based on the selection, the app will return from the API a title or name, the respective artwork for the result, and a URL. The URL will be used to navigate to the page in the Spotify player for the result generated, and the title/name will be displayed with the artwork.

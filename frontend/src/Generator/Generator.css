@@ -1,0 +1,91 @@
+/* Generator.css */
+
+.Generator {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    width: 55%;
+    margin-top: 40px !important;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.left-panel {
+    flex: 1;
+    margin-right: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* .title {
+    text-align: center;
+} */
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+.form {
+    width: 60%;
+}
+
+.submit-button {
+    background-color: rgb(0, 115, 197) !important;
+}
+
+.submit-button:hover {
+    background-color: rgb(1, 84, 143) !important;
+}
+
+.right-panel {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-message {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.result-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.open-btn {
+    background-color: #1DB954 !important;
+}
+
+.open-btn:hover {
+    background-color: #198f43 !important;
+}
+
+.open-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.previousResults-dropdown {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.btn-default:hover {
+    background-color: #bdbdbd;
+}
+
+.btn-selected {
+    background-color: #4d4d4d !important;
+    color: white !important;
+}
