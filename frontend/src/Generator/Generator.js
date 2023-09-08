@@ -26,7 +26,7 @@ const Generator = () => {
      * 
      * Stores data from GET request inside of previousResults state.
      * 
-     * Resets dropdownValue state, upon submission.*/
+     * Resets dropdownValue state, upon submission. */
     const handleSubmit = async (e) => {
         e.preventDefault();
         if (selectedOption) {
@@ -49,8 +49,7 @@ const Generator = () => {
 
     /** Sets currentRender state to the data of the desired result from the dropdown 
      * 
-     * Uses resultIndex from the dropdown bar to choose which previous result to update the currentRender state with 
-    */
+     * Uses resultIndex from the dropdown bar to choose which previous result to update the currentRender state with */
     const handlePreviousResultSelect = (resultIndex) => {
         const selectedResult = previousResults[resultIndex];
         // setSelectedOption(selectedResult.selectedOption);
