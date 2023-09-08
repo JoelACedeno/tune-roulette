@@ -14,6 +14,7 @@ app.use(getAccessToken);
 app.use(cors({ origin: 'http://localhost:3000' }));
 
 
+
 /** Router Paths */
 
 // Root gets the required access token from the API 
