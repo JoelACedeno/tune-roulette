@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Generator component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Generator"
+  >
+    <div
+      class="left-panel"
+    >
+      <div
+        class="title"
+      >
+        <a
+          href="/"
+        >
+          <h1>
+            <b>
+              Tune Roulette
+            </b>
+          </h1>
+        </a>
+        <p>
+          Let the music choose you!
+        </p>
+      </div>
+      <form
+        class=""
+      >
+        <div
+          class="mb-3"
+        >
+          <input
+            class="btn-default form-control"
+            data-testid="track-button"
+            id="track-button"
+            name="track"
+            type="button"
+            value="Track"
+          />
+        </div>
+        <div
+          class="mb-3"
+        >
+          <input
+            class="btn-default form-control"
+            data-testid="album-button"
+            id="album-button"
+            name="album"
+            type="button"
+            value="Album"
+          />
+        </div>
+        <div
+          class="mb-3"
+        >
+          <input
+            class="btn-default form-control"
+            data-testid="artist-button"
+            id="artist-button"
+            name="artist"
+            type="button"
+            value="Artist"
+          />
+        </div>
+        <button
+          class="submit-button btn btn-secondary"
+          data-testid="submit-button"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    <div
+      class="right-panel"
+    >
+      <div
+        class="welcome-message"
+      >
+        <p>
+          Select an item from the left to get random music to listen to on Spotify!
+        </p>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

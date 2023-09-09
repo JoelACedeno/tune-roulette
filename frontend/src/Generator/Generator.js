@@ -73,6 +73,7 @@ const Generator = () => {
                             value="Track"
                             name="track"
                             id="track-button"
+                            data-testid="track-button"
                             className={
                                 selectedButton === "Track" ? "btn-selected" : "btn-default"
                             }
@@ -85,6 +86,7 @@ const Generator = () => {
                             value="Album"
                             name="album"
                             id="album-button"
+                            data-testid="album-button"
                             className={
                                 selectedButton === "Album" ? "btn-selected" : "btn-default"
                             }
@@ -97,13 +99,14 @@ const Generator = () => {
                             value="Artist"
                             name="artist"
                             id="artist-button"
+                            data-testid="artist-button"
                             className={
                                 selectedButton === "Artist" ? "btn-selected" : "btn-default"
                             }
                             onClick={() => handleButtonClick("Artist")}
                         />
                     </FormGroup>
-                    <Button className='submit-button' type="submit">Submit</Button>
+                    <Button className='submit-button' type="submit" data-testid="submit-button">Submit</Button>
                 </Form>
             </div>
 
