@@ -7,10 +7,10 @@ In terms of functionality, this app uses Spotify API to harvest its data. The da
 
 In order to fetch data from Spotify's API, an external dataset found at https://www.kaggle.com/datasets/brunoalarcon123/top-200-spotify-songs-dataset?resource=download is needed to harvest a large quantity of legitimate Spotify Track ID's. The CSV file from the mentioned link needs to be seeded into a database with the schema design found in `spotifyData.sql`.
 Dataset information from the creator: 
-    > This is a complete dataset of all the "Top 200" playlist published globally by Spotify.
-    > Spotify introduces a new playlist each day. This dataset contains all the playlists since January 1, 2017 to May 29, 2023.
-    > It contains more than 650k rows, which comprises 467800 songs.
-    > This dataset has been collected from Spotify's regional chart data. In addition, this dataset has been substantially enriched with supplementary information.
+> This is a complete dataset of all the "Top 200" playlist published globally by Spotify.
+> Spotify introduces a new playlist each day. This dataset contains all the playlists since January 1, 2017 to May 29, 2023.
+> It contains more than 650k rows, which comprises 467800 songs.
+> This dataset has been collected from Spotify's regional chart data. In addition, this dataset has been substantially enriched with supplementary information.
 
 The Track ID from the aformentioned dataset is used with Spotify's "Get Track" API method to return an "Album" object. The "Album" object contains all of the necessary data for TuneRoulette to run, keeping the number of Spotify API calls low. 
 
