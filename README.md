@@ -16,3 +16,5 @@ The Track ID from the aformentioned dataset is used with Spotify's "Get Track" A
 
 To start the front-end, from the frontend directory input `npm start` in the command line. To start the back-end, from the backend directory input `nodemon server.js` in the command line.
 Tests can be found in both frontend and backend directories. To run a specific test, in the correct directory input `npm test (name of test file)`.
+
+Flow charts are inlcuded for both the front-end and back-end of the app.
